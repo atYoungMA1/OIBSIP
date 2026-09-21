@@ -1,0 +1,58 @@
+===============================================
+     Nmap Scan Results - Task 1
+     Oasis Infobyte | Security Analyst Internship
+===============================================
+
+Target IP        : 127.0.0.1 (localhost)
+Scan Date        : 19 September 2026
+Operating System : Kali Linux (VirtualBox VM)
+Nmap Version     : 7.99
+
+-----------------------------------------------
+1. Basic Scan
+Command: nmap 127.0.0.1
+-----------------------------------------------
+Host is up (0.0000040s latency).
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Result: No open ports detected.
+
+-----------------------------------------------
+2. Service Version Scan
+Command: nmap -sV 127.0.0.1
+-----------------------------------------------
+Host is up (0.0000030s latency).
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Result: No open ports or running services detected.
+
+-----------------------------------------------
+3. OS Detection Scan
+Command: sudo nmap -O 127.0.0.1
+-----------------------------------------------
+Host is up (0.000066s latency).
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+Result: OS detection could not provide a definitive match due to the high number of closed ports. This is expected behavior when scanning a hardened or minimal localhost environment.
+
+-----------------------------------------------
+Open Ports Summary
+-----------------------------------------------
+No open ports were found during the scans.
+
+Security Analysis:
+- Having no open ports on localhost is a good security posture for a testing environment.
+- It reduces the attack surface significantly.
+- In a real production system, unused services should always be disabled to minimize risk.
+
+-----------------------------------------------
+Notes
+-----------------------------------------------
+- All scans were performed on a local VirtualBox Kali Linux VM that I own and control.
+- No external or production systems were scanned.
+- Ethical guidelines were strictly followed.
