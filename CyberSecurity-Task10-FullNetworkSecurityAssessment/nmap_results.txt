@@ -1,0 +1,49 @@
+# Nmap 7.99 scan initiated Fri Sep 25 13:57:34 2026 as: /usr/lib/nmap/nmap -sV -O -oN /home/kali/nmap_results.txt 10.0.2.0/24
+Nmap scan report for 10.0.2.2
+Host is up (0.0016s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+8090/tcp  open  tcpwrapped
+16992/tcp open  http          Intel Active Management Technology User Notification Service httpd 14.1.77.2497
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter|bridge|general purpose|printer|switch
+Running (JUST GUESSING): AT&T embedded (95%), Oracle Virtualbox (90%), Slirp (90%), QEMU (89%), HP embedded (86%), Minolta embedded (85%), NEC embedded (85%), Cisco embedded (85%)
+OS CPE: cpe:/a:oracle:vm_virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu cpe:/h:cisco:sg_500
+Aggressive OS guesses: AT&T BGW210 voice gateway (95%), Oracle Virtualbox Slirp NAT bridge (90%), QEMU user mode network gateway (89%), HP 9100c Digital Sender printer (J3113A) (86%), Minolta Di550 laser printer (85%), NEC SuperScript printer (85%), Cisco SG 500 switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/h:intel:active_management_technology:14.1.77.2497
+
+Nmap scan report for 10.0.2.3
+Host is up (0.0041s latency).
+Not shown: 999 filtered tcp ports (net-unreach)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  (generic dns response: NOTIMP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.99%I=7%D=9/25%Time=6AB6B625%P=x86_64-pc-linux-gnu%r(DNSS
+SF:tatusRequestTCP,E,"\0\x0c\0\0\x90\x84\0\0\0\0\0\0\0\0");
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter|bridge|general purpose
+Running (JUST GUESSING): AT&T embedded (92%), Oracle Virtualbox (90%), Slirp (90%), QEMU (89%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu
+Aggressive OS guesses: AT&T BGW210 voice gateway (92%), Oracle Virtualbox Slirp NAT bridge (90%), QEMU user mode network gateway (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.0.2.15
+Host is up (0.00015s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.68 ((Debian))
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 5.0 - 6.2 (96%), HP P2000 G3 NAS device (92%), Linux 3.7 - 4.19 (91%), Android 7.0 (Linux 3.18) (91%), Linux 2.6.32 (91%), Linux 3.8 - 3.9 (91%), Linux 4.1 (91%), Linux 5.4 - 5.8 (91%), Linux 6.17 (91%), Linux 4.10 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Sep 25 13:58:21 2026 -- 256 IP addresses (3 hosts up) scanned in 47.00 seconds
