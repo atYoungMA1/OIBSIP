@@ -85,8 +85,9 @@ Nikto successfully identified multiple common web security issues on the DVWA ap
 
 ## Screenshots
 
-Nikto Running (nikto_running.png)
-Nikto final output (nikto_final_output.png)
+![Nikto Running](nikto_running.png)
+
+![Nikto Final Output](nikto_final_output.png)
 
 
 ---
