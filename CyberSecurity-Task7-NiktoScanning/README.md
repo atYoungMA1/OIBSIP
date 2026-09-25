@@ -10,8 +10,18 @@
 
 Nikto is an open-source web server vulnerability scanner. It tests web servers for dangerous files, outdated server software, and other common security issues. It is useful for quickly finding known problems on web applications.
 
----
+## Installation of Nikto
 
+Nikto came pre-installed on my virtual Kali Linux.  
+I verified the installation with the command: 
+nikto -Version
+
+If not, you can install it using the command: 
+sudo apt update
+&
+sudo apt install nikto -y
+
+---
 ## Limitations of Nikto
 
 Nikto is a **noisy** scanner. This means it sends a large number of requests in a short time and is easy to detect in logs or by intrusion detection systems. It is not a stealthy tool and should only be used on systems you own or have permission to test. It also does not perform deep exploitation — it only reports potential issues.
