@@ -1,0 +1,35 @@
+- Nikto v2.6.1
+---------------------------------------------------------------------------
++ Target IP:          127.0.0.1
++ Target Hostname:    localhost
++ Target Port:        80
++ Platform:           Linux/Unix
++ Start Time:         2026-09-25 06:51:22 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.68 (Debian)
++ Multiple IPs found: 127.0.0.1, ::1
++ No CGI Directories found (use '-C all' to force check all possible dirs). CGI tests skipped.
++ [013587] /DVWA/: Suggested security header missing: content-security-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
++ [013587] /DVWA/: Suggested security header missing: permissions-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy
++ [013587] /DVWA/: Suggested security header missing: strict-transport-security. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ [013587] /DVWA/: Suggested security header missing: referrer-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
++ [013587] /DVWA/: Suggested security header missing: x-content-type-options. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
++ [750500] /DVWA/config/: Directory indexing found. See: CWE-548
++ [000998] /DVWA/config/: Configuration information may be available remotely.
++ [750500] /DVWA/tests/: Directory indexing found. See: CWE-548
++ [001896] /DVWA/tests/: This might be interesting.
++ [750500] /DVWA/database/: Directory indexing found. See: CWE-548
++ [002727] /DVWA/database/: Database directory found.
++ [750500] /DVWA/docs/: Directory indexing found. See: CWE-548
++ [006333] /DVWA/login.php: Admin login page/section found.
++ [006530] /DVWA/.git/index: Git Index file may contain directory listing information.
++ [006609] /DVWA/.git/HEAD: Git HEAD file found. Full repo details may be present.
++ [006807] /DVWA/.git/config: Git config file found. Infos about repo details may be present.
++ [007224] /DVWA/.gitignore: .gitignore file found. It is possible to grasp the directory structure.
++ [007279] /DVWA/.dockerignore: .dockerignore file found. It may be possible to grasp the directory structure and learn more about the site.
++ [007342] /DVWA/: X-Frame-Options header is deprecated and was replaced with the Content-Security-Policy HTTP header with the frame-ancestors directive. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options
++ [007352] /DVWA/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ 7843 requests: 0 errors and 20 items reported on the remote host
++ End Time:           2026-09-25 06:51:38 (GMT-4) (16 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
