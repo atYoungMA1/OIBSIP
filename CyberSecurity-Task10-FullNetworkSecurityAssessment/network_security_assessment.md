@@ -123,4 +123,5 @@ The lab network demonstrates typical hardening gaps seen in default installation
 - **References:** OWASP WSTG (owasp.org), PTES Technical Guidelines (pentest-standard.org), CVSS (first.org/cvss), OWASP Secure Headers Project
 
 ---
-**End of Report**
+## Demo Video
+🎥 [Watch Demo Video - Task 10 ](https://youtu.be/s6ITiR0vmYk)
